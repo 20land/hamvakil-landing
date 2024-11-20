@@ -2,7 +2,7 @@ var swiper = new Swiper(".lawyers", {
   slidesPerView: 1.1,
   spaceBetween: 30,
   autoplay: {
-    delay: 2500,
+    delay: 2800,
     disableOnInteraction: false,
   },
   breakpoints: {
