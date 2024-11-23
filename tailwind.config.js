@@ -3,7 +3,11 @@ module.exports = {
   content: ["./*.html"],
   // important:true,
   theme: {
-    extend: {},
+    extend: {
+      // screens: {
+      //   sm: "640px",
+      // },
+    },
   },
   plugins: [],
 };
