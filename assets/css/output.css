@@ -570,10 +570,6 @@ video {
   bottom: 2.5rem;
 }
 
-.bottom-8 {
-  bottom: 2rem;
-}
-
 .end-10 {
   inset-inline-end: 2.5rem;
 }
@@ -1078,13 +1074,13 @@ video {
 @font-face {
   font-family: iransans-bold;
 
-  src: url("../font/IRANSansDN-Bold.ttf");
+  src: url("./assets/font/IRANSansDN-Bold.ttf");
 }
 
 @font-face {
   font-family: iransans;
 
-  src: url("../font/IRANSANS_MEDIUM.TTF");
+  src: url("./assets/font/IRANSANS_MEDIUM.TTF");
 }
 
 body {
@@ -1148,41 +1144,19 @@ body {
   animation: bounce 1s infinite;
 }
 
-@media (max-width: 640px) {
-  .max-\[640px\]\:bottom-\[25px\] {
-    bottom: 25px;
-  }
-}
-
 @media (max-width: 639px) {
-  .max-\[639px\]\:bottom-\[25px\] {
-    bottom: 25px;
-  }
-
-  .max-\[639px\]\:bottom-\[20px\] {
-    bottom: 20px;
-  }
-
   .max-\[639px\]\:bottom-\[15px\] {
     bottom: 15px;
   }
 }
 
 @media (max-width: 500px) {
-  .max-\[500px\]\:bottom-\[15px\] {
-    bottom: 15px;
-  }
-
   .max-\[500px\]\:bottom-\[25px\] {
     bottom: 25px;
   }
 }
 
 @media (max-width: 400px) {
-  .max-\[400px\]\:bottom-\[25px\] {
-    bottom: 25px;
-  }
-
   .max-\[400px\]\:bottom-8 {
     bottom: 2rem;
   }
@@ -1325,6 +1299,11 @@ body {
     padding: 2rem;
   }
 
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1333,11 +1312,6 @@ body {
   .md\:py-0 {
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-
-  .md\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .md\:pt-20 {
